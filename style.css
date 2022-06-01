@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    color: navy;
+    font-size:  20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/backpackfaded.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:blueviolet;
+    font-size: 3em;
+}
+
+h2 {
+    color: crimson;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+}
+
+table {
+    border-style: groove;
+    border-width: 3px;
+    border-color: blue;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    text-align: center;
+    width: 300px;
+}
+
+th {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.imageinbox{
+    width: 250px;
+}
+
+#funnytext {
+    color: #ff2567;
+    color: rgb(255,37,103);
+    color: rgba(255,37,103,0.1)
+    font-size: 1.2 em;
+    font-family: 'Indie Flower', cursive;;
+
+}
+
+.distancediv {
+    background-color: bisque;
+
+}
+
+.mybox {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.flexitem {
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+
+.mypics {
+    width: 400px;
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navitem {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    color: navy;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: 25px;
+}
+
+.textonimage {
+    background-image: url("images/backpackfaded.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
